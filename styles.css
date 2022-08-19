@@ -13,6 +13,8 @@
   margin-right: 125px;
   font-size: large;
   font-weight: bold;
+  font-family: 'poppins', sans-serif;
+  text-decoration: none;
 }
 
 .nav-item {
