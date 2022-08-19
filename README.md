@@ -4,7 +4,7 @@ This a mobile version skeleton of portfolio.
 
 # Built With
 - HTML 
-- SCC
+- CSS
 
 # Description 
 - It should look almost like the Figma template I chose.
