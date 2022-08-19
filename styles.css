@@ -27,7 +27,7 @@
   height: 740px;
   width: 360px;
   background-image: url("assets/images/header-shapes\ mobile.png");
-  padding: 10px; 
+  padding: 10px;
   margin-top: 114px;
 }
 
@@ -41,7 +41,7 @@ h1 {
   color: #172b4d;
   font-size: 40px;
   line-height: 52px;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 h3 {
@@ -54,7 +54,6 @@ h3 {
   height: 98px;
   text-align: center;
   margin-top: 20px;
-
 }
 
 p {
@@ -81,4 +80,3 @@ p {
   margin-top: 10px;
   margin-left: 195px;
 }
-
