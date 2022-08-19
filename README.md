@@ -1,2 +1,2 @@
 # Portfolio_and_mobile_first
-Portfolio with "Mobile First" approach 
+- This a mobile version skeleton of portfolio
