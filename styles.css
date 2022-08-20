@@ -199,8 +199,53 @@ ul {
   padding: 0;
 }
 
-#contact {
-  background-color: #6070ff;
-  height: 779px;
+#myself-text {
   width: 327px;
 }
+
+#bg {
+  width: 327px;
+  border-top-left-radius: 60px;
+}
+
+/*#contact {
+  display: grid;
+  position: relative;
+  background-color: #6070ff;
+  background-image: url("assets/images/contact-shapes-mobileBG.svg"); 
+  height: 779px;
+  width: 327px;
+  border-top-left-radius: 65px;
+  text-align: center;
+}
+
+#bg_img {
+  margin-left: 100px;
+  z-index: 0;
+}
+
+ h2 {
+  display: inline-block;
+  position: absolute;
+  font-family: 'poppins', sans-serif;
+  font-size: 40px;
+  color: white;
+  line-height: 52px;
+  align-items: center;
+  height: 56px;
+  width: 327px;
+  z-index: 1;
+}
+
+#contact-text {
+  position: absolute;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  z-index: 1;
+  height: 102px;
+  width: 327px;
+}
+
+#input {
+  position: absolute;
+} */
