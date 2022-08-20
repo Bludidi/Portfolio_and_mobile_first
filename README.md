@@ -9,6 +9,7 @@ This a mobile version skeleton of portfolio.
 # Description 
 - It should look almost like the Figma template I chose.
 - Linter should be set up correctly for this repository.
+- I must use CSS Grid and Flexbox.
 
 
 # Prerequisites
