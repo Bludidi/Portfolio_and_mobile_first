@@ -205,8 +205,6 @@ p {
   margin-top: 20px;
 }
 
-
-
 #about-me {
   display: flex;
   flex-direction: column;
@@ -245,5 +243,3 @@ ul {
 #cards {
   display: grid;
 }
-
-
