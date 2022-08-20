@@ -72,7 +72,17 @@ p {
   margin-top: 10px;
 }
 
+#connects {
+  color: #7f8cff;
+  margin-top: 10px;
+}
+
 #icons {
+  height: 20px;
+  width: 170.17px;
+}
+
+#sm_icons {
   height: 20px;
   width: 170.17px;
 }
@@ -137,12 +147,12 @@ p {
   gap:  12px;
 }
 
-#tags {
+.tags {
   height: 24px;
   width: 203px;
 }
 
-#select {
+.select {
   height: 76px;
   width: 295px;
   font-family: 'poppins', sans-serif;
