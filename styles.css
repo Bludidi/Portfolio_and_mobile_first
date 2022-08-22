@@ -10,7 +10,12 @@ body {
   height: 35px;
   width: 327px;
   padding: 10px;
-  background-color: white;
+  background-color: #6070ff;
+  z-index: 9999;
+}
+
+#a_logo {
+  color: white;
 }
 
 #content {
@@ -18,7 +23,7 @@ body {
 }
 
 #logo {
-  color: #6070ff;
+  color: white;
   margin-right: 125px;
   font-size: large;
   font-weight: bold;
