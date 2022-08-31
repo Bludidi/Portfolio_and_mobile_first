@@ -254,6 +254,8 @@ ul {
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: #6070ff;
   border-top-left-radius: 60px;
   width: 327px;
@@ -264,4 +266,25 @@ ul {
   background-image: url(assets/images/back_img.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.contact_me {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #ffffff;
+  margin-top: 103px;
+}
+
+.contact_txt {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #ffffff;
+  margin-top: 103px;
+}
+
+.foot_txt {
+  font-family: 'poppins', sans-serif;  
+  text-align: center;
 }
