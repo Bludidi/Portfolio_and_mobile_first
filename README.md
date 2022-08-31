@@ -10,6 +10,11 @@ This a mobile version skeleton of portfolio.
 - It should look almost like the Figma template I chose.
 - Linter should be set up correctly for this repository.
 - I must use CSS Grid and Flexbox.
+- Used HTML5 form tags
+- Form validates the data supplied by the user.
+- Username accepts a maximum of 30 characters.
+- The textarea/message box accepts a maximum of 500 characters.
+- Form is having an interactive button.
 
 
 # Prerequisites
