@@ -252,3 +252,16 @@ ul {
 #cards {
   display: grid;
 }
+
+.footer {
+  background-color: #6070ff;
+  border-top-left-radius: 60px;
+  width: 327px;
+  padding: 24px 0 0 24px;
+}
+
+.foot_image {
+  background-image: url(assets/images/back_img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
