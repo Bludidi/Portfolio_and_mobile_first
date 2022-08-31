@@ -267,7 +267,7 @@ ul {
   height: 100%;
   background-image: url("assets/images/back_img.svg");
   background-repeat: no-repeat;
-  background-position-x:right;
+  background-position-x: right;
 }
 
 .contactme {
@@ -279,8 +279,8 @@ ul {
   line-height: 52px;
   text-align: center;
   padding-top: 45px;
-
 }
+
 .contact-info {
   color: #ebebff;
   font-family: 'poppins', sans-serif;
@@ -291,10 +291,6 @@ ul {
   line-height: 24px;
   padding-left: 35px;
   padding-right: 35px;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .contact_input {
@@ -311,8 +307,8 @@ ul {
 }
 
 .one_line {
-    height: 48px;
-    color: #172b4d;
+  height: 48px;
+  color: #172b4d;
 }
 
 .message {
@@ -324,5 +320,5 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:40px;
+  margin-top: 40px;
 }
