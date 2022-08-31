@@ -255,7 +255,7 @@ ul {
 
 .footer {
   display: flex;
-  flex-direction: ;
+  flex-direction: column;
   background-color: #6070ff;
   border-top-left-radius: 70px;
   width: 337px;
@@ -269,7 +269,6 @@ ul {
   background-repeat: no-repeat;
   background-position-x:right;
 }
-
 
 .contactme {
   color: #fff;
