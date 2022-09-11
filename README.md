@@ -5,6 +5,7 @@ This a mobile version skeleton of portfolio.
 # Built With
 - HTML 
 - CSS
+- JavaScript 
 
 # Description 
 - It should look almost like the Figma template I chose.
@@ -15,6 +16,11 @@ This a mobile version skeleton of portfolio.
 - Username accepts a maximum of 30 characters.
 - The textarea/message box accepts a maximum of 500 characters.
 - Form is having an interactive button.
+
+## (Update) Use JavaScript to the following functions:
+- Click on the hamburger menu icon to show menu options.
+- Click on the X (close button) to close menu. 
+- Click on the menu option to show that particular option. 
 
 
 # Prerequisites
