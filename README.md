@@ -17,7 +17,7 @@ This a mobile version skeleton of portfolio.
 - The textarea/message box accepts a maximum of 500 characters.
 - Form is having an interactive button.
 
-## (Update) Use JavaScript to the following functions:
+## (Update) Use JavaScript to implement the following functions:
 - Click on the hamburger menu icon to show menu options.
 - Click on the X (close button) to close menu. 
 - Click on the menu option to show that particular option. 
