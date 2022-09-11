@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Poppins&family=Roboto+Flex:opsz,wght@8..144,500&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,500&display=swap"
     rel="stylesheet">
 </head>
 
@@ -18,26 +18,34 @@
   <header>
     <nav id="toolbar" class="nav-bar">
       <span id="logo"><a id="a_logo" href="https://github.com/Bludidi/Portfolio_and_mobile_first">BBL</a></span>
-      <img src="assets/images/Union.svg" id="menu" alt="menu button">
+      <a href="#"><img src="assets/images/Union.svg" class="menu" alt="menu button"></a>
     </nav>
-  </header>
-  <br><br>
 
-  <div id="content">
-    <section id="headline" class="head_section">
-      <div id="greet">
-        <h1>I’m Brian <br>Glad to see <br> you!</h1>
-      </div>
-      <br> <br>
-      <p>I’m a software developer! I can help you build a product ,
-        feature or website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,
-        don’t hestiate to contact me.
-      </p>
-      <h3 id="connect">LET’S CONNECT</h3>
-      <img id="icons" src="assets/images/social-media-icons.svg" alt="social-media icons">
-    </section>
-  </div>
+    <div class="menu_opt">
+<input type="button" name="close" value="X" class="close_menu">
+<ul class="menu_list">
+  <li class="menu_items"><a href="#">Portfolio</a></li>
+  <li class="menu_items"><a href="#">About</a></li>
+  <li class="menu_items"><a href="#">Contact</a></li>
+</ul>
+    </div>
+
+    <div id="content">
+      <section class="headline" class="head_section">
+        <div id="greet">
+          <h1>I’m Brian <br>Glad to see <br> you!</h1>
+        </div>
+        <br> <br>
+        <p>I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience!
+          If you like what you see and have a project you need coded,
+          don’t hestiate to contact me.
+        </p>
+        <h3 id="connect">LET’S CONNECT</h3>
+        <img id="icons" src="assets/images/social-media-icons.svg" alt="social-media icons">
+      </section>
+    </div>
+  </header>
 
 
   <section id="cards">
@@ -125,4 +133,5 @@
     </div>
   </footer>
 </body>
+
 </html>
