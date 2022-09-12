@@ -104,7 +104,6 @@ p {
 
 .menu_opt {
   display: none;
-  padding: 62px 38px 0 20px;
   background-color: rgba(96, 112, 255, 0.8);
   z-index: 11;
   width: 327px;
@@ -310,7 +309,7 @@ ul {
   color: #fff;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
