@@ -106,13 +106,14 @@ p {
 .menu_opt {
   display: flex;
   flex-direction: column;
-  /* display: none; */
+  display: none;
   padding: 62px 38px 0 20px;
   background-color: rgba(96, 112, 255, 0.8);
   z-index: 11;
   width: 327px;
   height: 100vh;
   padding: 10px;
+  position: fixed;
 }
 
 .menu_opt a {
@@ -135,6 +136,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  cursor: pointer;
 }
 
 #section1 {
