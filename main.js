@@ -10,3 +10,10 @@ menu.style.visibility='hidden';
 closeMenu.style.visibility='visible';
 });
 
+closeMenu.addEventListener('click', ()=>{
+    menuOption.classList.toggle['open'];
+    menuOption.style.height='0';
+    menu.style.visibility='visible';
+    closeMenu.style.visibility='hidden';
+});
+
