@@ -15,3 +15,9 @@ closeMenu.addEventListener('click', ()=>{
     menu.style.visibility='visible';
     closeMenu.style.visibility='hidden';
 });
+menuOption.addEventListener('click', ()=>{
+    closeMenu.style.visibility='hidden';
+    menuOption.style.display='none';
+    menuOption.style.height='0'; 
+});
+    
