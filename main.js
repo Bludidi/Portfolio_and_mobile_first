@@ -20,6 +20,7 @@ closeMenu.addEventListener('click', ()=>{
 menuOption.addEventListener('click', () => {
     closeMenu.style.visibility='hidden';
     menuOption.style.display='none';
-    menuOption.style.height='0'; 
+    menuOption.style.height='0';
+    menu.style.visibility='visible';
 });
     
