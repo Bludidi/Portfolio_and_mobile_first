@@ -3,7 +3,7 @@ const menuOption = document.querySelector('.menu_opt');
 const closeMenu = document.querySelector('.close_menu');
 
 menu.addEventListener('click', () => {
-  menuOption.classList.remove.open;
+  menuOption.classList.remove('open');
   menuOption.style.display = 'block';
   menuOption.style.height = '100vh';
   menu.style.visibility = 'hidden';
@@ -11,7 +11,7 @@ menu.addEventListener('click', () => {
 });
 
 closeMenu.addEventListener('click', () => {
-  menuOption.classList.toggle.open;
+  menuOption.classList.toggle('open');
   menuOption.style.height = '0';
   menu.style.visibility = 'visible';
   closeMenu.style.visibility = 'hidden';
