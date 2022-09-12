@@ -2,12 +2,12 @@
 This a mobile version skeleton of portfolio.
 
 
-# Built With
+## Built With
 - HTML 
 - CSS
 - JavaScript 
 
-# Description 
+## Description 
 - It should look almost like the Figma template I chose.
 - Linter should be set up correctly for this repository.
 - I must use CSS Grid and Flexbox.
@@ -17,20 +17,22 @@ This a mobile version skeleton of portfolio.
 - The textarea/message box accepts a maximum of 500 characters.
 - Form is having an interactive button.
 
-## (Update) Use JavaScript to implement the following functions:
+### (Update) Use JavaScript to implement the following functions:
 - Click on the hamburger menu icon to show menu options.
 - Click on the X (close button) to close menu. 
 - Click on the menu option to show that particular option. 
 
 
-# Prerequisites
+## Prerequisites
 - Text editor 
 - GitHub 
 
-# Authors
-👤 Brian Buntu Ludidi
+## Authors
+### 👤 Brian Buntu Ludidi
+GitHub: (https://github.com/Bludidi)  
 
-GitHub: @Bludidi 
+### 👤 Nurka Amre 
+Github: (https://github.com/NurkaAmre) 
 
 
 🤝 Contributing
