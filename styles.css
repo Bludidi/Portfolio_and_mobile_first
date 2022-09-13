@@ -44,7 +44,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 740px;
-  width: 740px;
+  width: 758px;
   margin: 55px 0 0 0;
   background-image: url("assets/images/mobile.png");
   padding: 10px;
@@ -140,7 +140,7 @@ p {
   cursor: pointer;
 }
 
-#section1 {
+.section1 {
   display: grid;
   align-items: center;
   width: 748px;
@@ -154,7 +154,7 @@ p {
   border-radius: 16px;
 }
 
-.section_2 {
+/* .section_2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -167,18 +167,34 @@ p {
   border-width: 10px;
   border-radius: 16px;
   margin-top: 50px;
+} */
+
+.image_topic {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
 }
 
-#snap {
+.RL_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.LR_block {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #snap {
   height: 220px;
   width: 295px;
   margin-top: 16px;
   margin-left: 16px;
-}
+} */
 
 .snap2 {
-  height: 220px;
-  width: 295px;
+  height: 335px;
+  width: 420px;
   margin-top: 16px;
   margin-left: 16px;
 }
@@ -291,9 +307,9 @@ ul {
   border-top-left-radius: 60px;
 }
 
-#cards {
+/* #cards {
   display: grid;
-}
+} */
 
 .footer {
   display: flex;
