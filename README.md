@@ -1,5 +1,5 @@
-# Portfolio_and_mobile_first
-This a mobile version skeleton of portfolio.
+# Mobile Menu
+This is a mobile menu that uses JavaScript to perform a list of tasks expalined in the Description section.  
 
 
 ## Built With
@@ -8,29 +8,25 @@ This a mobile version skeleton of portfolio.
 - JavaScript 
 
 ## Description 
-- It should look almost like the Figma template I chose.
-- Linter should be set up correctly for this repository.
-- I must use CSS Grid and Flexbox.
-- Used HTML5 form tags
-- Form validates the data supplied by the user.
-- Username accepts a maximum of 30 characters.
-- The textarea/message box accepts a maximum of 500 characters.
-- Form is having an interactive button.
-
-### (Update) Use JavaScript to implement the following functions:
-- Click on the hamburger menu icon to show menu options.
-- Click on the X (close button) to close menu. 
-- Click on the menu option to show that particular option. 
-
+- Menu should emulate the Figma template I chose.
+- Linter should be set up correctly for this project.
+- when clicking on the hamburger to show menu options.
+- Menu must have link to Portfolio, About and Contact sections of the webpage. 
+- Menu must have an exit button to closes the menu options. 
+- Exit button on the menu must be functional. 
 
 ## Prerequisites
 - Text editor 
 - GitHub 
 
+## Link to the live server 
+- This projects has not been publised yet
+- 
 ## Authors
 ### 👤 Brian Buntu Ludidi
 GitHub: (https://github.com/Bludidi)  
 
+## Collaborators 
 ### 👤 Nurka Amre 
 Github: (https://github.com/NurkaAmre) 
 
@@ -43,7 +39,7 @@ Feel free to check the issues page.
 Show your support
 Give a ⭐️ if you like this project!
 
-# Acknowledgments
+### Acknowledgments
 Hat tip to anyone whose code was used
 Inspiration
 etc
