@@ -1,41 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Poppins&display=swap');
 
+html {
+  width: 347px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
 body {
   background-color: white;
+  width: 347px;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
 }
 
 #toolbar {
   display: flex;
+  gap: calc(85%);
   position: fixed;
   height: 35px;
   width: 327px;
   padding: 10px;
   background-color: #6070ff;
-  z-index: 9999;
+  z-index: 10;
 }
 
 #a_logo {
   color: white;
 }
 
-#content {
-  margin-top: 35px;
-}
-
 #logo {
   color: white;
-  margin-right: 125px;
   font-size: large;
   font-weight: bold;
   font-family: 'poppins', sans-serif;
   text-decoration: none;
 }
 
-#headline {
+.headline {
   display: flex;
   flex-direction: column;
   height: 740px;
   width: 320px;
+  margin: 55px 0 0 0;
   background-image: url("assets/images/mobile.png");
   padding: 10px;
   padding-top: 114px;
@@ -54,14 +64,6 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
-}
-
-#head_div {
-  display: flex;
-  width: 920px;
-  height: 98px;
-  text-align: center;
-  margin-top: 10px;
 }
 
 p {
@@ -92,12 +94,50 @@ p {
   width: 170.17px;
 }
 
-#menu {
-  justify-items: end;
+.menu {
   height: 12px;
   width: 18px;
+  justify-content: end;
+  align-items: flex-end;
   margin-top: 10px;
-  margin-left: 155px;
+}
+
+.menu_opt {
+  display: none;
+  background-color: rgba(96, 112, 255, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 11;
+  width: 327px;
+  height: 100vh;
+  padding: 10px;
+  position: fixed;
+}
+
+.menu_opt a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu_items {
+  margin-bottom: 35px;
+  padding: 10px;
+}
+
+.menu_list {
+  width: 100px;
+}
+
+.close_menu {
+  background-color: rgba(96, 112, 255, 0.8);
+  border: none;
+  color: #fff;
+  margin-left: 300px;
+  width: 30px;
+  font-family: 'poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
 }
 
 #section1 {
@@ -106,6 +146,7 @@ p {
   width: 327px;
   height: 596px;
   padding: 16px;
+  padding-right: 4px;
   gap: 12px;
   border: #dfe1e6;
   background-color: white;
@@ -118,7 +159,7 @@ p {
   align-items: center;
   width: 327px;
   height: 596px;
-  padding: 16px;
+  padding: 0 10px;
   gap: 12px;
   border: #dfe1e6;
   background-color: white;
@@ -214,7 +255,7 @@ p {
   display: flex;
   flex-direction: column;
   height: 1050px;
-  width: 375px;
+  width: 327px;
   padding: 10px;
   padding-top: 114px;
 }
@@ -258,8 +299,9 @@ ul {
   flex-direction: column;
   background-color: #6070ff;
   border-top-left-radius: 70px;
-  width: 337px;
+  width: 347px;
   height: 779px;
+  overflow-x: hidden;
 }
 
 .foot-image {
@@ -274,7 +316,7 @@ ul {
   color: #fff;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
