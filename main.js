@@ -19,4 +19,4 @@ function close() {
 
 menu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
-menuItems.addEventListener('click', close); 
+menuItems.addEventListener('click', close);
