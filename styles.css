@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Poppins&display=swap');
 
 html {
-  width: 347px;
+  width: 768px;
   margin: 0;
   overflow-x: hidden;
 }
 
 body {
   background-color: white;
-  width: 347px;
+  width: 768px;
   margin: 0;
 }
 
@@ -22,7 +22,7 @@ header {
   gap: calc(85%);
   position: fixed;
   height: 35px;
-  width: 327px;
+  width: 748px;
   padding: 10px;
   background-color: #6070ff;
   z-index: 10;
@@ -44,7 +44,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 740px;
-  width: 320px;
+  width: 740px;
   margin: 55px 0 0 0;
   background-image: url("assets/images/mobile.png");
   padding: 10px;
@@ -55,7 +55,7 @@ header {
 
 #greet {
   height: 150px;
-  width: 327px;
+  width: 748px;
 }
 
 h1 {
@@ -107,7 +107,7 @@ p {
   background-color: rgba(96, 112, 255, 0.5);
   backdrop-filter: blur(10px);
   z-index: 11;
-  width: 327px;
+  width: 748px;
   height: 100vh;
   padding: 10px;
   position: fixed;
@@ -143,7 +143,7 @@ p {
 #section1 {
   display: grid;
   align-items: center;
-  width: 327px;
+  width: 748px;
   height: 596px;
   padding: 16px;
   padding-right: 4px;
@@ -155,9 +155,10 @@ p {
 }
 
 .section_2 {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  width: 327px;
+  width: 748px;
   height: 596px;
   padding: 0 10px;
   gap: 12px;
@@ -255,7 +256,7 @@ p {
   display: flex;
   flex-direction: column;
   height: 1050px;
-  width: 327px;
+  width: 748px;
   padding: 10px;
   padding-top: 114px;
 }
@@ -266,7 +267,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   height: 24px;
-  width: 237px;
+  width: 758px;
   line-height: 24px;
   margin-top: 65px;
 }
@@ -282,11 +283,11 @@ ul {
 }
 
 #myself-text {
-  width: 327px;
+  width: 748px;
 }
 
 #bg {
-  width: 327px;
+  width: 748px;
   border-top-left-radius: 60px;
 }
 
@@ -299,13 +300,13 @@ ul {
   flex-direction: column;
   background-color: #6070ff;
   border-top-left-radius: 70px;
-  width: 347px;
+  width: 768px;
   height: 779px;
   overflow-x: hidden;
 }
 
 .foot-image {
-  width: 337px;
+  width: 758px;
   height: 100%;
   background-image: url("assets/images/back_img.svg");
   background-repeat: no-repeat;
