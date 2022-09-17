@@ -6,7 +6,7 @@ const menuItems = document.querySelector('.menu_list');
 function show() {
   menuOption.style.display = 'block';
   menuOption.classList.toggle('open');
-  menus.style.visibility = 'hidden';
+  menu.style.visibility = 'hidden';
 }
 
 function close() {
